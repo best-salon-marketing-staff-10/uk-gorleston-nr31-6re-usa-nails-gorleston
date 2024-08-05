@@ -7,41 +7,26 @@ import { imageAlt } from '/pages/core/info';
 import { serviceCategory } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 
-export default function Service6(){
-    return(
+export default function Service6() {
+    return (
         <>
             <div className="service">
                 <div className="service-content">
                     <div className="service-content-anh">
-                        <Carousel fade={true} controls={false} interval="1800">
-                            <Carousel.Item>
-                                <div className="carousel-image">
-                                    <img className="service-content-anh" alt={imageAlt.serviceList6Image1Alt} src={images.serviceList6Image1} />
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <div className="carousel-image">
-                                    <img className="service-content-anh" alt={imageAlt.serviceList6Image2Alt} src={images.serviceList6Image2} />
-                                </div>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <div className="carousel-image">
-                                    <img className="service-content-anh" alt={imageAlt.serviceList6Image3Alt} src={images.serviceList6Image3} />
-                                </div>
-                            </Carousel.Item>
-                        </Carousel> 
-                        
-                    </div>       
+                        <div className="carousel-image">
+                            <img className="service-content-anh" alt={imageAlt.serviceList6Image1Alt} src={images.serviceList6Image1} />
+                        </div>
+                    </div>
                 </div>
                 <div className="service-content-text">
                     <div className="service-content-title">
                         <h2 className="service-content-title">
                             {serviceCategory.serviceCategory6}
                         </h2>
-                    </div> 
+                    </div>
                     <div className="service-content-description">
                         <p className="service-content-description">
-                            {pageContent.serviceCategory6Description} 
+                            {pageContent.serviceCategory6Description}
                         </p>
                     </div>
                     <div className="button-view-detail-services">

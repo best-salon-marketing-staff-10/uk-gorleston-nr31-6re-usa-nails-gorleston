@@ -115,7 +115,7 @@ const changedInfo = {
   businessWebsite: "https://usanailsgorleston.web.app",
 
   linkBookingMap: "",
-  linkBookingApp: "https://bit.ly/46yQ8nU",
+  linkBookingApp: "https://joybookings.com/usanailsgorleston/booking",
   linkToMap: "https://maps.app.goo.gl/VX63PUViZBceHTg3A",
 
 
